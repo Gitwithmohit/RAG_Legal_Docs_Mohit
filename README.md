@@ -78,18 +78,3 @@ The pipeline is **only half complete**:
 - The project currently cannot **store or query embeddings** because the OpenAI API quota is exceeded.
 - RAG-based question answering is **not yet implemented** — it will be added after embedding and retrieval steps are completed.
 
----
-
-## 🔜 Future Work
-
-- Switch to a **free local embedding model** like [Hugging Face `all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) to avoid API costs.
-- Finish **Chroma DB storage** and integrate with a **retriever + LLM** for actual RAG queries.
-- Improve preprocessing (lemmatization, handling special legal terms, etc.).
-- Add an interface for **semantic search** across the legal documents.
-
----
-
-## 🙋 Author’s Note
-
-This is part of a learning assignment on building **RAG applications** for **legal text analytics**.  
-The work is paused because of API cost limits, but the groundwork for preprocessing and exploration is already in place.
